@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Latex resume
 
  * Is a [nicely typeset 2-page PDF](https://rawgithub.com/cies/resume/master/cies-breijs-resume.pdf) (click the link to download mine)
@@ -103,3 +104,7 @@ Feel free to use, copy, fork, share, study and/or modify it because the LaTeX so
 The text of my resume in the `cies-breijs-resume.tex` file is [CC-NC-ND](http://creativecommons.org/licenses/by-nc-nd/3.0/) licensed.
 
 
+=======
+# resume_cv_minimal_latex
+minimalist 1 column resume and cv using latex  
+>>>>>>> 287877ade02f59f918927e86ff17a53a579089e3
