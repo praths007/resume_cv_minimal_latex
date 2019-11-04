@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.17)  19 OCT 2019 15:55
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.17)  4 NOV 2019 15:09
 entering extended mode
 **./prathmesh_savale_resume.tex
 (prathmesh_savale_resume.tex
@@ -911,16 +911,16 @@ Package relsize Warning: Font size 36.0pt is too large.
 (relsize)                Using 24.88pt instead on input line 48.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 187.
+Package hyperref Warning: Suppressing link with empty target on input line 196.
 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 216.
+(Font)              <9> on input line 225.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 216.
+(Font)              <6> on input line 225.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 216.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+(Font)              <5> on input line 225.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
 
 ("C:\Users\prathmesh.savale.TEST\AppData\Local\Programs\MiKTeX 2.9\tex/generic/
 oberdiek\se-ascii-print.def"
@@ -929,14 +929,14 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ) [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
  (prathmesh_savale_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
 Package rerunfilecheck Info: File `prathmesh_savale_resume.out' has not changed
 .
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
  ) 
 Here is how much of TeX's memory you used:
  23108 strings out of 427669
