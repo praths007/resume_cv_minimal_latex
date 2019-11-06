@@ -87,7 +87,16 @@
 		\item Built a classification framework using \acr{LSTM} networks to predict breakdown of 
 		Caterpillar haul trucks at Kiewit's coal mining facility. Accurate prediction helps save additional cost of repairing an
  		unplanned breakdown and increases throughput of the mining facility.
-		\item Improved the \acr{AUROC} by 20\% using rolling, tumbling and hopping aggregates on the truck's sensor 			data. Used \acr{SHAP} values to identify  features that contribute to the maximum number of breakdowns.
+		\item Improved the \acr{AUROC} by 20\% using rolling, tumbling and hopping aggregates on the truck's sensor data. 
+		\item Used \acr{SHAP} values to identify  features that contribute to the maximum number of breakdowns.
+		\end{itemize}
+		}}
+	}
+	\inhouseprojectsection 
+	{Route optimization of construction vehicles across rough terrain} {%
+		{\bodytext{
+		\begin{itemize}
+		\item Created an application using elevation raster, Haversine distance and routing algorithms to find the best path for 				traversal of construction vehicles across rough terrain for ease of operation and fuel efficiency.
 		\end{itemize}
 		}}
 	}
@@ -98,10 +107,11 @@
 		\item Estimated depreciation of gasoline consumption and subsequent increase
 		of electricity consumption due to the introduction of electric vehicles
 		across all states in the \acr{US}, using \acr{ARIMA} and random walk models.
-		\item Created a parser in \acr{R} to extract relevant information such as vehicle miles traveled, fuel consumption, vehicle type, 			etc. from \acr{CSV} flat-files that are procured from various government and public survey websites.
 		\end{itemize}
 		}}
 	}
+	
+
 %	\inhouseprojectsection 
 %	{Optimizing the fleet size of vehicles at construction sites} {%
 %		{\bodytext{
@@ -124,10 +134,10 @@
 	 {Building sales forecasting framework | Client - \acr{UK}'s largest retailer} {%
 		{\bodytext{
 		\begin{itemize}
-		\item Built a forecasting framework using \acr{ARIMA} with seasonal adjustment to produce forecasts at different levels
+		\item Built a forecasting framework using time series based ensemble model to produce forecasts at different levels
 		of the buying hierarchy. It is used by commercial teams for budgeting and inventory management.
-		\item Included adjustment for external regressors like holidays along with Yeo-Johnson transformation for normalization which helped improve the overall company level forecast accuracy by 5.6\%. 
-		\item Parallelized parameter tuning, model building, scoring, and forecasting for \char`\~2500 stores and
+		\item Included adjustment for external regressors like holidays and used forecast scaling for store closures which helped improve the overall company level forecast accuracy by 5.6\%. 
+		\item Used dynamic time warping to cluster similar time series shapes which helped decrease runtime of grid search for hyperparameter tuning. Parallelized model building, scoring, and forecasting for \char`\~2500 stores and
 		\char`\~3600 products using PySpark. Used test-driven development to ensure error free codebase in a \acr{CI}/\acr{CD} pipeline.
 		\end{itemize}
 		}}
@@ -160,7 +170,7 @@
 		{\bodytext{
 		\begin{itemize}
 		\item Developed a \acr{CUDA C} based application to execute a computationally expensive content-aware image resizing algorithm called seam carving on \acr{GPU}.
-		 This helped achieve 7.5X acceleration in execution time over traditional \acr{CPU} execution due to the high degree of parallelism of Nvidia propriety \acr{CUDA} based \acr{GPU}s.
+		 This helped achieve 7.5X acceleration in execution time over traditional \acr{CPU} execution due to the high degree of parallelism of Nvidia proprietary \acr{CUDA} based \acr{GPU}s.
 		\end{itemize}
 		}}
 	}
@@ -206,7 +216,7 @@
 \vspace{0.5em}
 
 \inlineheadsection
- {Statistical Analysis:}
+ {Statistical analysis:}
 {Regression, Bagging, Boosting, Ensemble, Hypothesis testing}
 \vspace{0.5em}
 
@@ -257,6 +267,63 @@
   {Shopping cart tracker:}
   {Application to track route of shopping carts in malls using kalman filters. An ibeacon sensor is attached to every shopping cart. Three receiver sensors strategically placed in the mall, correctly triangulate the position of the ibeacon enabled cart in realtime. \href{https://github.com/praths007/iot_tracking_shopping_carts/}{[Code]}}
 
+%--------------------------------------------------------------------------------------------------------------------------
+% Honors and Awards
+%--------------------------------------------------------------------------------------------------------------------------
+
+\roottitle{Honors and Awards}
+
+\inlineheadsection
+  {Mu Sigma Spot Award, }
+  {given to the top 5\% of 3500 employees. \href{https://drive.google.com/open?id=1hbCy0f1LU2qj2CIg6ZmP7cXK-BQRKEVm}{[Certificate]}}
+
+\vspace{0.5em}
+
+\inlineheadsection
+  {Mu Sigma Impact Award, }
+  {given to the top 2\% of 3500 employees. \href{https://drive.google.com/open?id=1jhjtnLzZWuULHREUYim1vh_pRXM6Mupu}{[Certificate]}}
+
+\vspace{0.5em}
+
+\inlineheadsection
+  {Engineering Merit, }
+  {ranked 3rd in a class of 180 students in undergraduate degree. \href{https://drive.google.com/open?id=17mhdPTfrQNLGxmrIupdCdHSeJdrD8vbR}{[Certificate]}}
+
+\vspace{0.5em}
+
+\inlineheadsection
+  {Computer Society of India Project Competition, }
+  {final year engineering project ranked 2nd out of 35. \href{https://drive.google.com/open?id=1ufOWnQXRZcLQshJ2VwICYXLTbRV71PKP}{[Certificate]}}
+
+\spacedhrule{1.6em}{-0.4em}
+
+
+%--------------------------------------------------------------------------------------------------------------------------
+% Interests and Extracurricular
+%--------------------------------------------------------------------------------------------------------------------------
+\roottitle{Interests}
+
+\inlineheadsection
+{Open source:}
+{Make contributions to open source repositories, specifically scikit-learn and sympy.}
+
+\vspace{0.5em}
+
+\inlineheadsection
+{Blog:}
+{Maintain a personal blog to serve as a ready reckoner for techniques I have used in some of my projects.}
+
+\vspace{0.5em}
+
+\inlineheadsection
+{Reading:}
+{Interested in books on astronomy, human evolution and behavioral psychology.}
+
+\vspace{0.5em}
+
+\inlineheadsection
+{Speedcubing:}
+{Solving 3x3 Rubik's cube using Fridrich and Roux methods, current best time 40 seconds.}
 
 \end{document}
 
